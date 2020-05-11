@@ -301,7 +301,7 @@ items:
       textures:
       - item/amethyst_prism.png
   fossil:
-    display_name: Fossil
+    display_name: 化石
     permission: fossil
     resource:
       material: IRON_INGOT

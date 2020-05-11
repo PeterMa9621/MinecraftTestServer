@@ -43,3 +43,25 @@ items:
             result:
               item: mjy:ronglianshi
               amount: 1
+          jingangshi:
+            ingredients:
+              slot1:
+                item: mjy:nianheji
+                amount: 1
+              slot2:
+                item: mjy:jingangshisuikuai
+                amount: 8
+            result:
+              item: mjy:jingangshi
+              amount: 1
+          xingyunbaoshi:
+            ingredients:
+              slot1:
+                item: mjy:nianheji
+                amount: 1
+              slot2:
+                item: mjy:xingyunbaoshisuikuai
+                amount: 8
+            result:
+              item: mjy:xingyunbaoshi
+              amount: 1

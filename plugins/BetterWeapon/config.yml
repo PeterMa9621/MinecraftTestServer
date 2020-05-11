@@ -6,21 +6,11 @@ Assistants:
   '1':
     ItemID: IRON_INGOT
     Name: §b金刚石
-    Model: 2
-    Lore:
-    - §3这是一种十分坚硬的石头
-    - §2[用途]
-    - §a用于辅助强化装备
-    - §a在装备强化失败时装备不会碎掉
+    Model: 20
   '2':
     ItemID: IRON_INGOT
     Name: §b幸运宝石
-    Model: 3
-    Lore:
-    - §3幸运宝石
-    - §2[用途]
-    - §a用于辅助强化装备
-    - §a在下一次强化装备时一定成功
+    Model: 22
 Equipment:
 - diamond_sword:sharpness
 - diamond_pickaxe:fortune

@@ -111,6 +111,30 @@
         "custom_model_data": 18
       },
       "model": "mjy:auto_generated/ronglianshi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "mjy:auto_generated/jingangshisuikuai"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "mjy:auto_generated/jingangshi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "mjy:auto_generated/xingyunbaoshisuikuai"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "mjy:auto_generated/xingyunbaoshi"
     }
   ]
 }

@@ -465,7 +465,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
+        "model": "mjy:auto_generated/jingangshi_ore"
       }
     },
     {
@@ -478,7 +478,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
+        "model": "mjy:auto_generated/xingyunbaoshi_ore"
       }
     },
     {
@@ -491,7 +491,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
+        "model": "mjy:auto_generated/huashi_ore"
       }
     },
     {

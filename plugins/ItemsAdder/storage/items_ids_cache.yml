@@ -193,6 +193,9 @@ REDSTONE_ORE:
   mjy:qingshuijing_ore: 5
   mjy:qianghuashi_ore: 6
   mjy:ronglianshi_ore: 7
+  mjy:jingangshi_ore: 8
+  mjy:xingyunbaoshi_ore: 9
+  mjy:huashi_ore: 10
 DIAMOND_ORE:
   itemsadder:turquoise_ore: 1
   itemsadder:aqua_aura_ore: 2
@@ -244,6 +247,7 @@ POTION:
   itemsadder:strange_potion: 6
   itemsadder:antidote: 7
   itemsadder:bloody_mary: 8
+  mjy:nianheji: 9
 FISHING_ROD:
   itemsadder:black_fishing_rod: 1
   itemsadder:red_fishing_rod: 2
@@ -515,6 +519,11 @@ IRON_INGOT:
   mjy:qianghuashi: 16
   mjy:ronglianshisuikuai: 17
   mjy:ronglianshi: 18
+  mjy:jingangshisuikuai: 19
+  mjy:jingangshi: 20
+  mjy:xingyunbaoshisuikuai: 21
+  mjy:xingyunbaoshi: 22
+  mjy:huashi: 23
 SHIELD:
   itemsadder:ender_shield: 1
   itemsadder:obsidian_shield: 2

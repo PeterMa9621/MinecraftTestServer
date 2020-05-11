@@ -52,6 +52,12 @@
         "custom_model_data": 8
       },
       "model": "itemsadder:auto_generated/bloody_mary"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "mjy:auto_generated/nianheji"
     }
   ]
 }

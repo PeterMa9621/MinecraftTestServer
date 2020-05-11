@@ -1,7 +1,7 @@
 info:
   namespace: itemsadder
-# recipes:
-  # crafting_table:
+recipes:
+  crafting_table:
     # empty_cup:
       # permission: itemsadder.empty_cup
       # enabled: true
@@ -14,34 +14,34 @@ info:
       # result:
         # item: itemsadder:empty_cup
         # amount: 1
-    # flour:
-      # permission: itemsadder.flour
-      # enabled: true
-      # pattern:
-      # - XXX
-      # - XWX
-      # - XXX
-      # ingredients:
-        # W: WHEAT
-      # result:
-        # item: itemsadder:flour
-        # amount: 4
-    # dough:
-      # permission: itemsadder.dough
-      # enabled: true
-      # pattern:
-      # - XFX
-      # - XFX
-      # - XWX
-      # ingredients:
-        # F: itemsadder:flour
-        # W: WATER_BUCKET
-      # result:
-        # item: itemsadder:dough
-        # amount: 8
-      # return_items:
-        # replace:
-          # WATER_BUCKET: BUCKET
+    flour:
+      permission: itemsadder.flour
+      enabled: true
+      pattern:
+      - XXX
+      - XWX
+      - XXX
+      ingredients:
+        W: WHEAT
+      result:
+        item: itemsadder:flour
+        amount: 2
+    dough:
+      permission: itemsadder.dough
+      enabled: true
+      pattern:
+      - XFX
+      - XFX
+      - XWX
+      ingredients:
+        F: itemsadder:flour
+        W: WATER_BUCKET
+      result:
+        item: itemsadder:dough
+        amount: 2
+      return_items:
+        replace:
+          WATER_BUCKET: BUCKET
     # cup_of_water:
       # permission: itemsadder.cup_of_water
       # enabled: true
@@ -372,7 +372,7 @@ info:
       # result:
         # item: itemsadder:shotgun_cartridge
         # amount: 1
-  # cooking:
+  cooking:
     # cup_of_hot_water:
       # permission: itemsadder.cup_of_hot_water
       # ingredient:
@@ -385,18 +385,18 @@ info:
       # result:
         # item: itemsadder:cup_of_hot_water
         # amount: 1
-    # plastic:
-      # permission: itemsadder.plastic
-      # ingredient:
-        # item: itemsadder:fossil
-      # machines:
-      # - FURNACE
-      # - BLAST_FURNACE
-      # exp: 1
-      # cook_time: 200
-      # result:
-        # item: itemsadder:plastic
-        # amount: 2
+    plastic:
+      permission: itemsadder.plastic
+      ingredient:
+        item: itemsadder:fossil
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: itemsadder:plastic
+        amount: 1
 items:
   empty_cup:
     display_name: Empty cup
@@ -407,7 +407,7 @@ items:
       textures:
       - item/empty_cup.png
   flour:
-    display_name: Flour
+    display_name: 面粉
     permission: flour
     resource:
       material: STICK
@@ -415,7 +415,7 @@ items:
       textures:
       - item/flour.png
   dough:
-    display_name: Dough
+    display_name: 面团
     permission: dough
     resource:
       material: STICK
@@ -451,7 +451,7 @@ items:
       textures:
       - item/projectile.png
   plastic:
-    display_name: Plastic
+    display_name: 塑料
     permission: plastic
     resource:
       material: STICK

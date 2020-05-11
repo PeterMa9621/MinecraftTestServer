@@ -49,6 +49,38 @@ items:
       generate: true
       textures:
       - item/mineral/ronglianshi.png
+  jingangshisuikuai:
+    display_name: '&b金刚石碎块'
+    permission: jingangshisuikuai
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/mineral/jingangshisuikuai.png
+  jingangshi:
+    display_name: '&b金刚石'
+    permission: jingangshi
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/mineral/jingangshi.png
+  xingyunbaoshisuikuai:
+    display_name: '&b幸运宝石碎块'
+    permission: xingyunbaoshisuikuai
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/mineral/xingyunbaoshisuikuai.png
+  xingyunbaoshi:
+    display_name: '&b幸运宝石'
+    permission: xingyunbaoshi
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/mineral/xingyunbaoshi.png
 loots:
   blocks:
     zishuijing_ore:
@@ -88,6 +120,30 @@ loots:
       items:
         ronglianshisuikuai:
           item: mjy:ronglianshisuikuai
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    jingangshi_ore:
+      type: mjy:jingangshi_ore
+      items:
+        jingangshisuikuai:
+          item: mjy:jingangshisuikuai
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    xingyunbaoshi_ore:
+      type: mjy:xingyunbaoshi_ore
+      items:
+        xingyunbaoshisuikuai:
+          item: mjy:xingyunbaoshisuikuai
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    huashi_ore:
+      type: mjy:huashi_ore
+      items:
+        huashi:
+          item: itemsadder:fossil
           min_amount: 1
           max_amount: 1
           chance: 100

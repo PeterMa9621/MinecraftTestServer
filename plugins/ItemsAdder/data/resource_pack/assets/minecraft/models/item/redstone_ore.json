@@ -42,6 +42,24 @@
         "custom_model_data": 7
       },
       "model": "mjy:auto_generated/ronglianshi_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "mjy:auto_generated/jingangshi_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "mjy:auto_generated/xingyunbaoshi_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "mjy:auto_generated/huashi_ore"
     }
   ]
 }
