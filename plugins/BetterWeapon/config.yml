@@ -1,0 +1,114 @@
+Item:
+  ItemID: IRON_INGOT
+  Name: §f强化石
+  Model: 16
+Assistants:
+  '1':
+    ItemID: IRON_INGOT
+    Name: §b金刚石
+    Model: 2
+    Lore:
+    - §3这是一种十分坚硬的石头
+    - §2[用途]
+    - §a用于辅助强化装备
+    - §a在装备强化失败时装备不会碎掉
+  '2':
+    ItemID: IRON_INGOT
+    Name: §b幸运宝石
+    Model: 3
+    Lore:
+    - §3幸运宝石
+    - §2[用途]
+    - §a用于辅助强化装备
+    - §a在下一次强化装备时一定成功
+Equipment:
+- diamond_sword:sharpness
+- diamond_pickaxe:fortune
+Possibility:
+- 100
+- 80
+- 70
+- 60
+- 40
+- 15
+- 8
+- 5
+- 3
+- 1
+Smelt:
+  Item:
+    ItemID: IRON_INGOT
+    Name: §f熔炼石
+    Model: 18
+  Equipment:
+  - diamond_sword:attack
+  - diamond_chestplate:defend
+  Possibility:
+  - 70
+  - 60
+  - 40
+  - 20
+  - 15
+  - 8
+  - 5
+  - 4
+  - 2
+  - 1
+  Price: 10000
+Gem:
+  Hole:
+    Equipment:
+    - diamond_sword
+    - diamond_helmet
+    - diamond_chestplate
+    - diamond_leggings
+    - diamond_boots
+    Possibility:
+    - 50
+    - 10
+    - 5
+    Price: 5000
+  Inlay:
+    Price: 5000
+    Equipment:
+    - iron_sword
+    - wooden_sword
+    - stone_sword
+    - diamond_sword
+    - golden_sword
+  Evaluate:
+    Possibility:
+    - 100
+    - 40
+    - 20
+    - 5
+    - 3
+    - 1
+    Price: 1000
+  Item:
+    ItemID: IRON_INGOT
+    Name: §f未鉴定的宝石
+    Model: 5
+    Lore:
+    - §e[未鉴定]
+    - §6一块看起来普通的石头
+    Type:
+    - attack
+    - defend
+    - block
+    - crit
+    - penetrate
+    Possibility:
+    - 100
+    - 100
+    - 50
+    - 50
+    - 20
+  Synthesis:
+    Price: 100
+    Possibility:
+    - 70
+    - 50
+    - 20
+    - 10
+    - 3

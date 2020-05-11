@@ -1,0 +1,93 @@
+info:
+  namespace: mjy
+items:
+  zishuijing:
+    display_name: '&f紫水晶'
+    permission: zishuijing
+    resource:
+      material: GLOWSTONE_DUST
+      generate: true
+      textures:
+      - item/mineral/zishuijing.png
+  huangshuijing:
+    display_name: '&f黄水晶'
+    permission: huangshuijing
+    resource:
+      material: GLOWSTONE_DUST
+      generate: true
+      textures:
+      - item/mineral/huangshuijing.png
+  qingshuijing:
+    display_name: '&f青水晶'
+    permission: qingshuijing
+    resource:
+      material: GLOWSTONE_DUST
+      generate: true
+      textures:
+      - item/mineral/qingshuijing.png
+  qianghuashi:
+    display_name: '&f强化石'
+    permission: qianghuashi
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/mineral/qianghuashi.png
+  ronglianshisuikuai:
+    display_name: '&f熔炼石碎块'
+    permission: ronglianshisuikuai
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/mineral/ronglianshisuikuai.png
+  ronglianshi:
+    display_name: '&f熔炼石'
+    permission: ronglianshi
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/mineral/ronglianshi.png
+loots:
+  blocks:
+    zishuijing_ore:
+      type: mjy:zishuijing_ore
+      items:
+        zishuijing:
+          item: mjy:zishuijing
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+    huangshuijing_ore:
+      type: mjy:huangshuijing_ore
+      items:
+        huangshuijing:
+          item: mjy:huangshuijing
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+    qingshuijing_ore:
+      type: mjy:qingshuijing_ore
+      items:
+        qingshuijing:
+          item: mjy:qingshuijing
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+    qianghuashi_ore:
+      type: mjy:qianghuashi_ore
+      items:
+        qingshuijing:
+          item: mjy:qianghuashi
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    ronglianshi_ore:
+      type: mjy:ronglianshi_ore
+      items:
+        ronglianshisuikuai:
+          item: mjy:ronglianshisuikuai
+          min_amount: 1
+          max_amount: 1
+          chance: 100

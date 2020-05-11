@@ -1,0 +1,30 @@
+info:
+  namespace: mjy
+recipes:
+  crafting_table:
+    qingshuijing_pickaxe:
+      permission: mjy.qingshuijing_pickaxe
+      enabled: true
+      pattern:
+      - RRR
+      - XSX
+      - XSX
+      ingredients:
+        R: mjy:qingshuijing
+        S: STICK
+      result:
+        item: mjy:qingshuijing_pickaxe
+        amount: 1
+  anvil_repair:
+    qingshuijing_pickaxe:
+      ingredient: mjy:qingshuijing
+      item: mjy:qingshuijing_pickaxe
+items:
+  qingshuijing_pickaxe:
+    display_name: '&f青水晶镐'
+    permission: qingshuijing_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/pickaxe/qingshuijing_pickaxe.png
