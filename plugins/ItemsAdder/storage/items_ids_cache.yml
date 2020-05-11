@@ -196,6 +196,7 @@ REDSTONE_ORE:
   mjy:jingangshi_ore: 8
   mjy:xingyunbaoshi_ore: 9
   mjy:huashi_ore: 10
+  mjy:baoshi_ore: 11
 DIAMOND_ORE:
   itemsadder:turquoise_ore: 1
   itemsadder:aqua_aura_ore: 2
@@ -524,6 +525,9 @@ IRON_INGOT:
   mjy:xingyunbaoshisuikuai: 21
   mjy:xingyunbaoshi: 22
   mjy:huashi: 23
+  mjy:baoshi: 24
+  mjy:jiandingbaoshi: 25
+  mjy:baoshisuikuai: 26
 SHIELD:
   itemsadder:ender_shield: 1
   itemsadder:obsidian_shield: 2
@@ -584,6 +588,7 @@ DIAMOND_PICKAXE:
   mjy:qingshuijing_pickaxe: 11
 WOODEN_PICKAXE:
   itemsadder:crystal_pickaxe: 1
+  mjy:qingshuijing_hammer: 2
 DIAMOND_HOE:
   itemsadder:ruby_hoe: 1
   itemsadder:spinel_hoe: 2

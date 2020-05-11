@@ -1,4 +1,36 @@
 databaseName: minecraft
+
+bonusExpCard:
+  normal:
+    itemId: 'STICK'
+    customModelId: 40
+    displayName: '&f1.5倍经验卡'
+    lore:
+    - '&6使用后所有获得历练经验 × 1.5'
+    - '&6有效时长: &215分钟'
+    - '&5右键使用'
+    times: 1.5
+    duration: 15
+  double:
+    itemId: 'STICK'
+    customModelId: 34
+    displayName: '&f2倍经验卡'
+    lore:
+    - '&6使用后所有获得历练经验 × 2'
+    - '&6有效时长: &22小时'
+    - '&5右键使用'
+    times: 2
+    duration: 120
+  triple:
+    itemId: 'STICK'
+    customModelId: 35
+    displayName: '&f3倍经验卡'
+    lore:
+    - '&6使用后所有获得历练经验 × 3'
+    - '&6有效时长: &22小时'
+    - '&5右键使用'
+    times: 3
+    duration: 120
 maxLevel: 30
 chatPrefix: true
 formula:

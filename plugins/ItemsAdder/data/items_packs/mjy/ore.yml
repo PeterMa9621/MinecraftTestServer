@@ -160,6 +160,24 @@ items:
         drop_on_silktouch: true
         break_tools_whitelist:
         - mjy:qingshuijing_pickaxe
+  baoshi_ore:
+    enable: true
+    display_name: 宝石矿石
+    permission: baoshi_ore
+    resource:
+      material: REDSTONE_ORE
+      generate: true
+      textures:
+      - block/ore/baoshi_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: BLOCK
+        cancel_drop: true
+        drop_on_silktouch: true
+        break_tools_whitelist:
+        - mjy:qingshuijing_hammer
 worlds_populators:
   zishuijing_ore:
     block: mjy:zishuijing_ore
@@ -286,6 +304,22 @@ worlds_populators:
     - GRAVEL
     chance: 20.0
     max_height: 40
+    min_height: 5
+    amount: 3
+    iterations: 2
+  baoshi_ore:
+    block: mjy:baoshi_ore
+    worlds:
+    - kuangjie
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    chance: 20.0
+    max_height: 30
     min_height: 5
     amount: 3
     iterations: 2

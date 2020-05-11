@@ -65,3 +65,14 @@ items:
             result:
               item: mjy:xingyunbaoshi
               amount: 1
+          baoshi:
+            ingredients:
+              slot1:
+                item: mjy:nianheji
+                amount: 1
+              slot2:
+                item: mjy:baoshisuikuai
+                amount: 2
+            result:
+              item: mjy:baoshi
+              amount: 1

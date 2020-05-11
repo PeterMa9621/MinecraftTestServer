@@ -78,7 +78,8 @@ Gem:
   Item:
     ItemID: IRON_INGOT
     Name: §f未鉴定的宝石
-    Model: 5
+    Model: 24
+    AnotherModel: 25
     Lore:
     - §e[未鉴定]
     - §6一块看起来普通的石头

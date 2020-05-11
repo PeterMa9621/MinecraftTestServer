@@ -60,6 +60,12 @@
         "custom_model_data": 10
       },
       "model": "mjy:auto_generated/huashi_ore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "mjy:auto_generated/baoshi_ore"
     }
   ]
 }

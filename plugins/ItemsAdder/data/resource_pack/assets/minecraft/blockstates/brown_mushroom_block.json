@@ -504,7 +504,7 @@
         "down": true
       },
       "apply": {
-        "model": "minecraft:block/original/brown_mushroom_block_true"
+        "model": "mjy:auto_generated/baoshi_ore"
       }
     },
     {

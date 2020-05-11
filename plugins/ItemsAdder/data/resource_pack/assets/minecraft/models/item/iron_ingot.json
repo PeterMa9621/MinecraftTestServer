@@ -135,6 +135,24 @@
         "custom_model_data": 22
       },
       "model": "mjy:auto_generated/xingyunbaoshi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "mjy:auto_generated/baoshi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "mjy:auto_generated/jiandingbaoshi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "mjy:auto_generated/baoshisuikuai"
     }
   ]
 }
