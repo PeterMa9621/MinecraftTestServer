@@ -13,7 +13,23 @@ Assistants:
     Model: 22
 Equipment:
 - diamond_sword:sharpness
-- diamond_pickaxe:fortune
+- diamond_pickaxe:efficiency
+- diamond_axe:sharpness
+- iron_sword:sharpness
+- iron_pickaxe:efficiency
+- iron_axe:sharpness
+- diamond_helmet:protection
+- diamond_chestplate:protection
+- diamond_leggings:protection
+- diamond_boots:protection
+- iron_helmet:protection
+- iron_chestplate:protection
+- iron_leggings:protection
+- iron_boots:protection
+- leather_helmet:protection
+- leather_chestplate:protection
+- leather_leggings:protection
+- leather_boots:protection
 Possibility:
 - 100
 - 80
@@ -25,6 +41,7 @@ Possibility:
 - 5
 - 3
 - 1
+Price: 500
 Smelt:
   Item:
     ItemID: IRON_INGOT
@@ -32,7 +49,21 @@ Smelt:
     Model: 18
   Equipment:
   - diamond_sword:attack
+  - iron_sword:attack
+  - diamond_axe:attack
+  - iron_axe:attack
+  - diamond_helmet:defend
   - diamond_chestplate:defend
+  - diamond_leggings:defend
+  - diamond_boots:defend
+  - iron_helmet:defend
+  - iron_chestplate:defend
+  - iron_leggings:defend
+  - iron_boots:defend
+  - leather_helmet:defend
+  - leather_chestplate:defend
+  - leather_leggings:defend
+  - leather_boots:defend
   Possibility:
   - 70
   - 60
@@ -44,28 +75,50 @@ Smelt:
   - 4
   - 2
   - 1
-  Price: 10000
+  Price: 2000
 Gem:
   Hole:
     Equipment:
     - diamond_sword
+    - diamond_axe
     - diamond_helmet
     - diamond_chestplate
     - diamond_leggings
     - diamond_boots
+    - iron_sword
+    - iron_axe
+    - iron_helmet
+    - iron_chestplate
+    - iron_leggings
+    - iron_boots
+    - leather_helmet
+    - leather_chestplate
+    - leather_leggings
+    - leather_boots
     Possibility:
     - 50
     - 10
     - 5
-    Price: 5000
+    Price: 500
   Inlay:
-    Price: 5000
+    Price: 1000
     Equipment:
-    - iron_sword
-    - wooden_sword
-    - stone_sword
     - diamond_sword
-    - golden_sword
+    - diamond_axe
+    - diamond_helmet
+    - diamond_chestplate
+    - diamond_leggings
+    - diamond_boots
+    - iron_sword
+    - iron_axe
+    - iron_helmet
+    - iron_chestplate
+    - iron_leggings
+    - iron_boots
+    - leather_helmet
+    - leather_chestplate
+    - leather_leggings
+    - leather_boots
   Evaluate:
     Possibility:
     - 100
@@ -96,7 +149,7 @@ Gem:
     - 50
     - 20
   Synthesis:
-    Price: 100
+    Price: 500
     Possibility:
     - 70
     - 50
