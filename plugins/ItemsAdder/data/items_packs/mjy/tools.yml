@@ -18,18 +18,18 @@ recipes:
         item: mjy:qingshuijing_pickaxe
         amount: 1
     qingshuijing_hammer:
-        permission: mjy.qingshuijing_hammer
-        enabled: true
-        pattern:
-        - DDD
-        - DSD
-        - XSX
-        ingredients:
-          D: mjy:qingshuijing
-          S: STICK
-        result:
-          item: mjy:qingshuijing_hammer
-          amount: 1
+      permission: mjy.qingshuijing_hammer
+      enabled: true
+      pattern:
+      - DDD
+      - DSD
+      - XSX
+      ingredients:
+        D: mjy:qingshuijing
+        S: STICK
+      result:
+        item: mjy:qingshuijing_hammer
+        amount: 1
   anvil_repair:
     qingshuijing_pickaxe:
       ingredient: mjy:qingshuijing

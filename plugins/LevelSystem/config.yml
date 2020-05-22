@@ -1,28 +1,34 @@
+# MySQL数据库名称
 databaseName: minecraft
-
+# MySQL用户名
+databaseUserName: root
+# MySQL用户密码
+databasePassword: mjy159357
+# 每分钟最大获取经验数量
+maxExpPerMinute: 30
+# 是否禁止钓鱼获取经验(可以有效避免自动钓鱼刷经验)
+disallowFishingExp: true
+# 经验加倍卡
 bonusExpCard:
+  # 经验卡的名字(命令/level give里的经验卡名字就是这个)
   normal:
-    itemId: 'STICK'
-    customModelId: 40
-    displayName: '&f1.5倍经验卡'
-    lore:
-    - '&6使用后所有获得历练经验 × 1.5'
-    - '&6有效时长: &215分钟'
-    - '&5右键使用'
-    times: 1.5
-    duration: 15
-  double:
-    itemId: 'STICK'
+    # 经验卡物品ID
+    itemId: STICK
+    # 经验卡物品自定义模型ID
     customModelId: 34
+    # 经验卡物品显示名
     displayName: '&f2倍经验卡'
+    # 经验卡物品Lore
     lore:
     - '&6使用后所有获得历练经验 × 2'
     - '&6有效时长: &22小时'
     - '&5右键使用'
+    # 这个经验卡是几倍经验卡(不需要是整数)
     times: 2
+    # 经验卡持续时长
     duration: 120
-  triple:
-    itemId: 'STICK'
+  advance:
+    itemId: STICK
     customModelId: 35
     displayName: '&f3倍经验卡'
     lore:
@@ -31,8 +37,14 @@ bonusExpCard:
     - '&5右键使用'
     times: 3
     duration: 120
+# 最大等级
 maxLevel: 30
+# 是否在聊天前缀中显示等级
 chatPrefix: true
+# 经验公式 y = c1*x^p1 + c2*x^p2 + c3*x^p3 + ... + cn*x^pn
+# 该公式可以无限长度，x为等级，y为该等级的经验值
+# c1,c2,c3,...,cn为下方coefficient中定义的值
+# p1,p2,p3,...,pn为下方power中定义的值
 formula:
   coefficient:
   - 10.0
@@ -42,50 +54,58 @@ formula:
   - 2.0
   - 1.5
   - 1.0
+# 升级奖励
 reward:
+  # 奖励等级
   '2':
-    msg: '升级奖励:&2100金币'
+    # 奖励信息
+    msg: ''
+    # 执行奖励命令
     command:
     - eco give %player% 100
+    - give %player% diamond 16
   '3':
-    msg: '升级奖励:&2150金币'
+    msg: ''
     command:
-    - eco give %player% 150
+    - eco give %player% 100
+    - give %player% diamond 16
   '4':
-    msg: '升级奖励:&2200金币'
+    msg: ''
     command:
-    - eco give %player% 200
+    - eco give %player% 100
+    - give %player% diamond 16
   '5':
-    msg: '升级奖励:&2250金币'
+    msg: ''
     command:
-    - eco give %player% 250
+    - eco give %player% 100
+    - give %player% diamond 16
+  '6':
+    msg: ''
+    command:
+    - eco give %player% 100
+    - give %player% diamond 16
+  '7':
+    msg: ''
+    command:
+    - eco give %player% 100
+    - give %player% diamond 16
+  '8':
+    msg: ''
+    command:
+    - eco give %player% 100
+    - give %player% diamond 16
+  '9':
+    msg: ''
+    command:
+    - eco give %player% 100
+    - give %player% diamond 16
   '10':
-    msg: '升级奖励:&2500金币,九选一抽奖箱钥匙一把'
+    msg: ''
     command:
-    - eco give %player% 500
-    - cc give p 九选一 1 %player%
-  '15':
-    msg: '升级奖励:&21000金币,快速抽奖箱钥匙一把'
+    - eco give %player% 100
+    - give %player% diamond 16
+  '11':
+    msg: ''
     command:
-    - eco give %player% 1000
-    - cc give p 快速 1 %player%
-  '20':
-    msg: '升级奖励:&21000金币,老虎机抽奖箱钥匙一把'
-    command:
-    - eco give %player% 1000
-    - cc give p 老虎机 1 %player%
-  '25':
-    msg: '升级奖励:&21000金币,跑马灯抽奖箱钥匙一把'
-    command:
-    - eco give %player% 1000
-    - cc give p 跑马灯 1 %player%
-  '30':
-    msg: '升级奖励:&21000金币,烟花抽奖箱钥匙一把'
-    command:
-    - eco give %player% 1000
-    - cc give p 烟花 1 %player%
-  '35':
-    msg: '升级奖励:&21000金币,疯狂抽奖箱钥匙一把'
-    command:
-    - eco give %player% 1000
-    - cc give p 疯狂 1 %player%
+    - eco give %player% 100
+    - give %player% diamond 16
